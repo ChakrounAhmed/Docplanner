@@ -385,6 +385,10 @@ h1 {
   display: block;
   color: #747474;
 }
+.wrapper:hover{
+    
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+}
 
 .wrapper img {
   width: 309px;
@@ -403,7 +407,7 @@ h1 {
   border-radius: 4px;
   padding: 10px 10px;
   margin-left: 29%;
-  background: #3d83df;
+  background:#1762c7;
   line-height: 1em;
   color: #fff;
   font-weight: 700;
@@ -411,6 +415,11 @@ h1 {
   font-size: 0.625rem;
   text-align: center;
   font-family: Roboto, Arial, sans-serif;
+  opacity: 0.8;
+}
+.seemore-btn:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .image-section a {
@@ -450,7 +459,7 @@ h1:first-child {
   border: 0;
   border-radius: 4px;
   padding: 1.1666666667em 1.5em;
-  background: #3d83df;
+  background: #1762c6;
   font-family: Roboto, Arial, sans-serif;
   line-height: 1em;
   color: #fff;
@@ -461,6 +470,11 @@ h1:first-child {
   text-decoration: none !important;
   text-transform: uppercase;
   transition: all 0.2s ease 0s;
+  opacity: 0.8;
+}
+.btn:hover {
+    opacity: 1;
+    cursor: pointer;
 }
 
 ::selection {
